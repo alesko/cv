@@ -54,8 +54,8 @@ test and measurement, board bring-up.\\ {\em Work methods:} Agile
 
 {\bf Tools}\\ {\em Software development:} GNU eco system (GCC for
 ARM/AVR/MSP430, make, gdb, openocd, avrdude), Atmel Studio,
-Microchip's XC compiler, IAR Workbench, VSCode, Emacs, Eclipse
-(multiple derivatives), Jenkins, Unity and Robotframework for testing.
+Microchip's XC compiler, IAR Workbench, CMake/Ninja, VSCode, Emacs, Eclipse
+(multiple derivatives), Jenkins, Docker Unity and Robotframework for testing.
 \\ {\em Host environment:} GNU/Linux since 2002. Several years of
 experience with Apple's OSX.\\ {\em Version management:} Git
 (Bitbucket, Github, Gerrit) and Subversion. \\ {\em Documenting:}
@@ -72,7 +72,8 @@ analyser and protocol analyser.
 STM32H7, Blue\-NRG), AVR (STK500, Arduino etc.), MSP430 (TI
 LaunchPad), STM8 and Microchip dsPIC33EP.
 
-{\bf Currently learning/improving:} ZephyrOS.
+{\bf Currently learning/improving:} Docker.
+%ZephyrOS.
 %Machine Learning using TinyML (Python) and  Rust.
 
 %{\bf Software:} {\em Operating systems:} GNU/Linux; for software development and host (Ubuntu and Fedora) and Raspbian as an embedded OS.
@@ -91,32 +92,43 @@ LaunchPad), STM8 and Microchip dsPIC33EP.
 
 \section{\sc Current Assignment}
 
-{\bf DigiSign	 }, Stockholm, Sweden\\
+{\bf Infinera}, Stockholm, Sweden\\
 %\vspace{-5mm}
-{\em Firmware engineer} \hfill {\bf From 2022-03}\\
-Help the client porting a small proprietary realtime kernel from 
-MIPS (different PICs) to ARM (STM32H7). The work is focused in low 
-level programming form interrupts, communication, scheduling, context-
-and task switching, timers, memory management, etc.
-\\ Tools/techniques used are; GCC toolchain, STMCube, Make, git, 
-ARM assembler, embedded C.
+{\em Firmware engineer} \hfill {\bf From 2022-08}\\
+Embedded software development for Infinera's fiber optical solution. 
+Working with an ARM Cortex M4 that acts as an interface circuit. 
+\\ {\bf Tools/techniques} used are; GCC toolchain, CMake, git, gdb, embedded C C++,
+Google Test and Mock, grpc, docker and proprietary tools.
 
-{\bf E$^2$ FirmwareLabs }, Stockholm, Sweden\\
+{\bf E$^2$ FirmwareLabs}, Stockholm, Sweden\\
 %\vspace{-0mm}
 {\em Hardware engineer} \hfill {\bf From 2021-04}\\
 Doing PCB deign and layout for a client's project with primarily
 analog components. Using JLC for prototype production. Maintain BOM
 and work on sourcing components. Investigate new product design ideas
 for ethernet connectivity.
-\\ Tools/techniques used is KiCad.
+\\ {\bf Tools/techniques} used is KiCad.
 
 \vspace{3mm}
 
 \section{\sc Professional Experience}
+
+{\bf DigiSign}, Stockholm, Sweden\\
+%\vspace{-5mm}
+{\em Firmware engineer} \hfill {\bf From 2022-03 -- 2022-08}\\
+Helped the client porting a small proprietary realtime kernel from 
+MIPS (different PICs) to ARM (STM32H7). The work is focused in low 
+level programming close to the hardware; including interrupts, communication, 
+scheduling, context-- and task switching, timers, memory management, etc.
+\\ {\bf Tools/techniques} used are; GCC toolchain, gdb, Eclipse/STMCube, Make, git, 
+ARM assembler, embedded C and proprietary tools.
+
+\vspace{10mm}
 {\bf Peratech}, Stockholm, Sweden\\
 {\em Firmware engineer} \hfill {\bf From 2021-11 -- 2022-02}\\
-Help the client with troubleshooting an ADC scanning device running
-ZephyrOS.  \\ Tools/techniques used are; ZephyrOS, GCC toolchain on
+Helped the client with troubleshooting an ADC scanning device running
+ZephyrOS. Worked on refactoring and merging for two codebases into one.\\ 
+{\bf Tools/techniques} used are; ZephyrOS, GCC toolchain on
 Linux, CMake, Make, git, embedded C.
 
 
@@ -125,17 +137,17 @@ Linux, CMake, Make, git, embedded C.
 {\em Senior Embedded Systems Engineer} \hfill {\bf From 2021-06 -- 2021-10}\\
 Working with firmware for Polarium's Battery Management System (BMS).
 Investigate how a Hardware-In-the-Loop system can be built to automated
-test of firmware. \\ Tools/techniques used are; JIRA, git, Silicon Labs 8051
+test of firmware. \\ {\bf Tools/techniques} used are; JIRA, git, Silicon Labs 8051
 MCU, Subversion, IAR, embedded C.
 
 
 {\bf DeLaval}, Stockholm, Sweden\\
 %\vspace{-.3cm}
 {\em Senior Embedded Systems Engineer} \hfill {\bf From 2020-11 --
-  2021-06}\\ At DeLaval I am working with firmware for the next
+  2021-06}\\ At DeLaval I developed firmware for the next
 generation of connected devices. Provisioning of IoT devices, MQTT
 communication between embedded device/PLC and AWS
-cloud. \\ Tools/techniques used are; JIRA, git, GCC toolchain
+cloud. \\ {\bf Tools/techniques} used are; JIRA, git, GCC toolchain
 (including Cmake/make) on Linux, AWS IoT Core and AWS infrastructure,
 embedded C, ARM Cortex microcontroller, FreeRTOS, SSL/TLS encrypted
 MQTT communication, PLC programming and Wireshark.
@@ -148,7 +160,7 @@ MQTT communication, PLC programming and Wireshark.
 implementation, testing and verification. Main area was Functional
 Safety of inverters for a motor control system. Firmware must fulfill
 automotive standards (e.g., ISO 26262 requirements). The team worked
-according to Scrum. \\ Tools/techniques used; JIRA, Crucible, Jenkins,
+according to Scrum. \\ {\bf Tools/techniques} used; JIRA, Crucible, Jenkins,
 Subversion, IAR, embedded C, unit testing, gcov, Python and Robot
 Framework.
 
@@ -159,7 +171,7 @@ Framework.
 Scanreco's professional remote controls. Primarily working with the
 Bluetooth connectivity for firmware upgrades (bootloaders) and remote
 configuration via the back-end system. he team worked according to
-Scrum. \\ Tools/techniques used are; GCC toolchain on Linux, Make, git,
+Scrum. \\ {\bf Tools/techniques} used are; GCC toolchain on Linux, Make, git,
 embedded C, Bluetooth Low Energy (ST 's BlueNRG-2 SoC; ARM Cortex
 microcontroller), unit testing (C Unit), IAR, STM8.
 

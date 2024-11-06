@@ -1,6 +1,5 @@
 \documentclass[a4paper,margin,line]{res} \usepackage{latexsym}
-\usepackage[latin1]{inputenc}
-%\usepackage[swedish]{babel}
+\usepackage[utf8]{inputenc}
 
 \oddsidemargin -.5in \evensidemargin -.5in \textwidth=6.0in
 \addtolength{\textheight}{1.0in} \itemsep=0in \parsep=0in
@@ -21,7 +20,7 @@
 
 \begin{document}
 \name{Alexander Skoglund, Ph.D. (1976-02-28)}
-\vspace*{.1in} 
+\vspace*{.1in}
 
 \begin{resume}
 \hspace{-34mm}
@@ -32,8 +31,8 @@
 \section{\sc Contact Information}
 \vspace{.05in}
 \begin{tabular}{@{}p{3in}p{3in}}
-  Ranhammarsv\"agen 20 & {\it Mobile:} +46 (0)72-077 17 34 \\
-  168 67 Bromma & {\it E-mail:} alexander.skoglund@e2labs.eu \\
+  Ågatan 12C & {\it Mobile:} +46 (0)72-077 17 34 \\
+  172 68 Sundbyberg & {\it E-mail:} alexander.skoglund@e2labs.eu \\
   Sweden & {\it Homepage:} www.e2labs.eu \\
 \end{tabular}
 
@@ -55,7 +54,7 @@ test and measurement, board bring-up.\\ {\em Work methods:} Agile
 {\bf Tools}\\ {\em Software development:} GNU eco system (GCC for
 ARM/AVR/MSP430, make, gdb, openocd, avrdude), Atmel Studio,
 Microchip's XC compiler, IAR Workbench, CMake/Ninja, VSCode, Emacs, Eclipse
-(multiple derivatives), Jenkins, Docker Unity and Robotframework for testing.
+(multiple derivatives), Jenkins, Docker, Unity and Robotframework for testing.
 \\ {\em Host environment:} GNU/Linux since 2002. Several years of
 experience with Apple's OSX.\\ {\em Version management:} Git
 (Bitbucket, Github, Gerrit) and Subversion. \\ {\em Documenting:}
@@ -68,7 +67,7 @@ analyser and protocol analyser.
 
 %{\em Currently learning:} Code review methods and software test methods.
 
-{\bf Microcontrollers and boards} ARM Cortex M0/M4/M7 (XMC44XX, STM32F4, 
+{\bf Microcontrollers and boards} ARM Cortex M0/M4/M7 (XMC44XX, STM32F4,
 STM32H7, Blue\-NRG), AVR (STK500, Arduino etc.), MSP430 (TI
 LaunchPad), STM8 and Microchip dsPIC33EP.
 
@@ -92,13 +91,13 @@ LaunchPad), STM8 and Microchip dsPIC33EP.
 
 \section{\sc Current Assignment}
 
-{\bf Infinera}, Stockholm, Sweden\\
+{\bf SafeLine}, Stockholm, Sweden\\
 %\vspace{-5mm}
-{\em Firmware engineer} \hfill {\bf From 2022-08}\\
-Embedded software development for Infinera's fiber optical solution. 
-Working with an ARM Cortex M4 that acts as an interface circuit. 
-\\ {\bf Tools/techniques} used are; GCC toolchain, CMake, git, gdb, embedded C C++,
-Google Test and Mock, grpc, docker and proprietary tools.
+{\em Senior Embedded Systems Engineer} \hfill {\bf From 2023-02}\\
+Embedded software development for SafeLine's emergency telephones.
+Working with an ARM Cortex that controls the operation of the device and the cloud connectivity.
+\\ {\bf Tools/techniques} used are; GCC toolchain, Make, git, gdb, embedded C, python,
+Unity and CMock (for unit testing), docker, MQTT, Telit module.
 
 {\bf E$^2$ FirmwareLabs}, Stockholm, Sweden\\
 %\vspace{-0mm}
@@ -107,27 +106,41 @@ Doing PCB deign and layout for a client's project with primarily
 analog components. Using JLC for prototype production. Maintain BOM
 and work on sourcing components. Investigate new product design ideas
 for ethernet connectivity.
-\\ {\bf Tools/techniques} used is KiCad.
+{\bf Tools/techniques} used is KiCad.
+
+{\em Senior Embedded Systems Engineer} \hfill {\bf From 2024-10}\\
+Embedded software development for a client's connected amplifier products.
+The working includes an ARM Cortex and the Wiznet W5500 chip; which togheter
+controls the operation of the device provides the connectivity.
+\\ {\bf Tools/techniques} used are; GCC toolchain, Make, git, gdb, embedded C, STM32 IDE,
+Unity and CMock (for unit testing).
 
 \vspace{3mm}
 
 \section{\sc Professional Experience}
 
+{\bf Infinera}, Stockholm, Sweden\\
+%\vspace{-5mm}
+{\em Firmware engineer} \hfill {\bf From 2022-08 -- 2023-01}\\
+Embedded software development for Infinera's fiber optical solution.
+Working with an ARM Cortex M4 that acts as an interface circuit.
+\\ {\bf Tools/techniques} used are; GCC toolchain, CMake, git, gdb, embedded C C++,
+Google Test and Mock, grpc, docker and proprietary tools.
+
 {\bf DigiSign}, Stockholm, Sweden\\
 %\vspace{-5mm}
 {\em Firmware engineer} \hfill {\bf 2022-03 -- 2022-08}\\
-Helped the client porting a small proprietary realtime kernel from 
-MIPS (different PICs) to ARM (STM32H7). The work is focused in low 
-level programming close to the hardware; including interrupts, communication, 
+Helped the client porting a small proprietary realtime kernel from
+MIPS (different PICs) to ARM (STM32H7). The work is focused in low
+level programming close to the hardware; including interrupts, communication,
 scheduling, context-- and task switching, timers, memory management, etc.
-\\ {\bf Tools/techniques} used are; GCC toolchain, gdb, Eclipse/STMCube, Make, git, 
+\\ {\bf Tools/techniques} used are; GCC toolchain, gdb, Eclipse/STMCube, Make, git,
 ARM assembler, embedded C and proprietary tools.
 
-\vspace{10mm}
 {\bf Peratech}, Stockholm, Sweden\\
 {\em Firmware engineer} \hfill {\bf 2021-11 -- 2022-02}\\
 Helped the client with troubleshooting an ADC scanning device running
-ZephyrOS. Worked on refactoring and merging for two codebases into one.\\ 
+ZephyrOS. Worked on refactoring and merging for two codebases into one.\\
 {\bf Tools/techniques} used are; ZephyrOS, GCC toolchain on
 Linux, CMake, Make, git, embedded C.
 
@@ -197,15 +210,15 @@ current production version with upgrades and production support.
 %simulation), GCC toolchain (programming) for ARM and AVR.
 
 
-{\bf {\AA}F Group}, Stockholm, Sweden
+{\bf ÅF Group}, Stockholm, Sweden\\
 %\vspace{-.3cm}
-{\em Embedded Software Eng.} \hfill {\bf 2012-11 -- 2014-02}\\ Working
+{\em Embedded Software Engineer} \hfill {\bf 2012-11 -- 2014-02}\\ Working
 on firmware design for client's embedded systems.  {\em Project 1:}
 embedded Linux on ARM for an autonomous mobile robot.  {\em Project
   2:} embedded Linux web server on a RaspberryPi, short investigation
 and demo mock-up.  {\em Project 3:} PWM control using an MSP430, short
 investigation.  {\em Project~4:} control of an electrochromic foil
-(AVR) and powerline communication (LonTalk), 9 months.
+(AVR) and powerline communication (LonTalk).
 
 %\vspace{.5cm}
 
@@ -217,21 +230,21 @@ research in neuroscience.  I worked on developing an MR compatible
 robotic anthropomorphic hand for neuroscience research on body
 perception, body ownership, agency, and prosthesis.
 
-{\bf \"Orebro University}, {\em Research Assistant}, \"Orebro, Sweden
+{\bf Örebro University}, {\em Research Assistant}, Örebro, Sweden
 \hfill {\bf 2009-06 -- 2009-12}\\ Work on modelling of human grasping
 strategies. Modelled grasping skills should be possible to transfer to
 dexterous robotic hand. This work is part of the HANDLE project,
 funded by EU:s FP7.
 %I also gave a master course on ``Introduction on Robotics and Intelligent Systems''.
 
-{\bf \"Orebro University}, {\em Ph.D Student}, \"Orebro, Sweden \hfill
+{\bf Örebro University}, {\em Ph.D Student}, Örebro, Sweden \hfill
 {\bf Nov, 2003 -- June, 2009}\\ Research on
 Programming-by-Demonstration including learning systems, human-machine
 interfaces, human-like motions.  In addition, I have been a teaching
 assistant in several courses.  On parental leave in 2008-02--2008-05
 and 2008-12--2009-01 (50\%).
 
-{\bf \"Orebro University}, {\em Research engineer}, \"Orebro, Sweden
+{\bf Örebro University}, {\em Research engineer}, Örebro, Sweden
 \hfill {\bf June, 2001 -- Nov, 2003}\\ Maintenance with mobile robots
 and lightweight manipulators. Also, involved in the electronic design
 of an electronic tongue for water quality assessment, control system
@@ -255,7 +268,7 @@ Barcelona.
 
 
 \section{\sc Education}
-{\bf \"Orebro University}, \"Orebro, Sweden\\
+{\bf Örebro University}, Örebro, Sweden\\
 
 \vspace*{-.1in}
 \begin{list2}
@@ -338,7 +351,7 @@ manipulator (robot arm), a.k.a. ``Programming-by-Demonstration''.
 
 %I have supervised two master theses:
 %\begin{list2}
-%\item Sofia Cruz-Ferreira Fr\"oman, master thesis: {\it An actuated
+%\item Sofia Cruz-Ferreira Fröman, master thesis: {\it An actuated
 %  rubber hand for use in MRI environments}. KTH (Royal Institute of
 %  Technology, Stockholm).
 %\item Guiseppe Valerio's master thesis on a medical diagnostic
